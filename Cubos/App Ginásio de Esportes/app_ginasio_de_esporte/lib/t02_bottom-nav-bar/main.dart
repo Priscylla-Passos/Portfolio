@@ -1,7 +1,7 @@
+import 'package:flutter/material.dart';
 import 'package:app_ginasio_de_esporte/resources/strings.dart';
 import 'package:app_ginasio_de_esporte/resources/theme.dart';
 import 'package:app_ginasio_de_esporte/t02_bottom-nav-bar/ginasio_esporte.dart';
-import 'package:flutter/material.dart';
 
 void main() => runApp(const SportsGymApp());
 
@@ -10,7 +10,7 @@ class SportsGymApp extends StatefulWidget {
 
   @override
   State<SportsGymApp> createState() => _SportsGymAppState();
-}
+} 
 
 class _SportsGymAppState extends State<SportsGymApp> {
   ThemeMode currentThemeMode = ThemeMode.light;
